@@ -1,0 +1,284 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    font-size: 14px;
+}
+nav .nav-link{
+    font-weight: 600;
+    color: #282828;
+}
+nav .nav-link :hover{
+    text-decoration: none;
+}
+nav .active{
+    border: 1px solid #e20000;
+    border-radius: 20px;
+    padding: 2px 0px;
+}
+.btn-pdf{
+    color: white;
+    background-color: #e20000;
+    border: 2px solid #e20000;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 1px 13px;
+}
+.btn-pdf:hover{
+    text-decoration: underline;
+    color: white;
+}
+h1{
+    color: #e20000;
+    font-weight: 800;
+}
+p{
+    color: #6A6A6A;
+    font-weight: 400;
+    line-height: 20px;
+}
+a{
+    color: white;
+}
+form textarea{
+    padding: 7px 0px 0px 18px !important;
+    height: 100px;
+    resize: none;
+}
+.form-control{
+    padding: 0px 0px 0px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 0px solid white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 18px -6px #999;
+}
+.btn-enviar{
+    font-size: 15px;
+    color: #380A6D;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 18px -6px #999;
+    font-weight: 600;
+    padding: 3px 35px;
+    transition: all 400ms;
+}
+.btn-enviar:hover{
+ color: #FFFFFF;
+ background-color: #380A6D;
+ border: 1px solid #380A6D;
+}
+#contacto{
+background-image: url(../images/fondo-contacto.png);
+background-size: 100%;
+background-color: #e20000;
+}
+#home{
+    background-image: url(../images/fondo-home.png);
+    background-size: 100%;
+}
+#proyectos{
+    background-image: url(../images/fondo-proyecto.png);
+    background-size: 100%;
+}
+#sobre-mi{
+    background-image: url(../images/fondo-proyecto.png);
+    background-size: 100%;
+}
+#contacto .fa-whatsapp{
+    background-color: #380A6D;
+    font-size: 30px;
+    padding: 10px 17px;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 18px;
+    height: 65px;
+    width: 65px; 
+}
+#contacto .fa-linkedin{
+    font-size: 20px;
+    color: white;
+}
+#contacto .fa-github{
+    font-size: 20px;
+    color: white;
+}
+#contacto .white{
+    color: white;
+}
+#contacto footer span{
+    font-size: 14px;
+}
+#contacto footer a{
+    font-size: 14px;
+}
+#contacto footer a:hover{
+    color: white;
+}
+#contacto footer{
+    bottom: 0%;
+    width: 100%;
+    position: fixed;
+}
+.caja{
+    background-color: white;
+    text-align: center;
+    width: 315px;
+    height: 173px;
+    box-shadow: 0px 0px 18px -6px #999;
+    border: 0px solid;
+    border-radius: 14px 14px 0px 0px;
+}
+.caja img{
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0px 0px 18px -6px #999;
+}
+#proyectos h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 18px 0px 0px 13px;
+}
+.caja1{
+    width: 315px;
+    height: 55px;
+    background: linear-gradient(to right, #870000, #FF0000);
+}
+.caja2{
+    background-color: white;
+    width: 315px;
+    height: 173px;
+    box-shadow: 0px 0px 18px -6px #999;
+    border: 0px solid;
+    border-radius: 0px 0px 14px 14px;
+}
+.caja2 p{
+    font-size: 12px;
+    color: #282828;
+    font-weight: 500;
+    padding: 15px 15px 15px 15px;
+}
+.btn-caja2{
+    color: white;
+    background-color: #e20000;
+    border: 1px solid #e20000;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 8px 20px;
+    margin: 0px 0px 0px 18px;
+    text-align: center;
+}
+.btn-caja2:hover{
+    text-decoration: none;
+    color: white;
+}
+.caja2 span{
+    font-size: 10px;
+    font-weight: 800;
+    color: #e20000;
+    padding-left: 28px;
+}
+#proyectos .white{
+    color: #e20000;
+}
+#proyectos footer span{
+    font-size: 14px;
+}
+#proyectos footer a{
+    color: #e20000;
+    font-size: 14px;
+}
+#proyectos footer a:hover{
+    color: #e20000;
+}
+#proyectos footer{
+    bottom: 0%;
+    width: 100%;
+    position: fixed;
+}
+#proyectos .fa-whatsapp{
+    color: white;
+    background-color: #380A6D;
+    font-size: 30px;
+    padding: 10px 17px;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 18px;
+    height: 65px;
+    width: 65px; 
+}
+#proyectos .fa-linkedin{
+    font-size: 20px;
+    color: #e20000;
+}
+#proyectos .fa-github{
+    font-size: 20px;
+    color: #e20000;
+}
+#sobre-mi main .fa-github{
+    color: #e20000;
+    font-size: 40px;
+}
+#sobre-mi main .fa-linkedin{
+    color: #e20000;
+    font-size: 40px;
+}
+#sobre-mi main .btn-sobremi{
+    color: white;
+    background-color: #e20000;
+    border: 1px solid #e20000;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 9px 21px;
+}
+#sobre-mi main .fondobox{
+    background: linear-gradient(to right, #870000, #FF0000);
+}
+#sobre-mi h3{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+#sobre-mi .iconos{
+    max-width: 14%;
+    margin: 17px 23px 5px 0px;
+    height: 210px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.iconos .imgcaja{
+    padding: 0px;
+    margin: 0px 0px 0px -14px;
+}
+#sobre-mi h5{
+    font-size: 15px;
+    text-align: center;
+}
+#sobre-mi main .fondobox1{
+    background-color: #ededed;
+}
+#sobre-mi .cajabox1{
+    box-shadow: 0px 0px 18px -6px #999;
+    background: #370A6D;
+    width: 156px;
+    height: 160px;
+    color: #370A6D;
+    border: 1px solid #370A6D;
+    border-radius: 20px;
+}
+#sobre-mi .fa-comment-alt, .fa-star{
+    color: white;
+    font-size: 69px;
+}
+#sobre-mi .cajabox2{
+    box-shadow: 0px 0px 18px -6px #999;
+    border: 1px solid white;
+    border-radius: 0px 20px 20px 0px;
+    background: white;
+    width: 330px;
+    height: 160px;
+}
