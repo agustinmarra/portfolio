@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#inicio{
+    background-image: url(../images/fondo-contacto.png);
+    background-size: 100%;
+    background-size: cover;
+}
+#contacto{
+    background-image: url(../images/fondo-contacto.png);
+    background-size: 100%;
+    background-size: cover;
+}
+#proyectos{
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: 100%;
+    background-size: cover;
+    
+}
+.active {
+    border: 1px solid red;
+    border-radius: 50px;
+}
+h1{
+    color: #E20000;
+}
+p{
+    color: #6a6a6a;
+}
+textarea{
+    height: 115px;
+}
+.btn{
+    color: #370a6d;
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    width: 110px;
+}
+.btn:hover{
+    color: white;
+    background-color: #370a6d;
+}
+.btn-rojo{
+    text-decoration: none;
+    color: white;
+    background-color: #E20000;
+    border: 1px solid #E20000;
+    border-radius: 15px;
+    width: auto;
+    font-size: 13px;
+}
+.btn-rojo:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #370a6d;
+    border: 1px solid #370a6d;
+    border-radius: 15px;
+}
+.btn-link{
+    text-decoration: none;
+    color: #E20000;
+    width: auto;
+    font-size: 13px;
+    border: none;
+}
+.btn-link:hover{
+    color: #370a6d;
+    background: none;
+}
+.fa-whatsapp{
+    position: fixed;
+    bottom: 0px;
+    right: 60px;
+    background-color: #370a6d;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+    height: 80px;
+    width: 65px;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+main{
+    min-height: 530px;
+}
+#contacto footer .fa-linkedin:hover, .mail1:hover, .sponsor:hover{
+    color: #370a6d;
+}
+#contacto footer .fa-square-github:hover{
+    color: #370a6d;
+}
+#contacto footer .fa-linkedin{
+    font-size: 30px;
+    color: white;
+    padding: 0 0 0 10px;
+    border: 0px;
+    border-radius: 80px;
+    font-size: 30px;
+}
+#contacto footer .fa-square-github{
+    font-size: 30px;
+    color: white;
+    border-radius: 80px;
+    font-size: 30px;
+}
+#contacto .mail1{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
+#contacto .sponsor{
+    color: white;
+}
+#contacto footer .fa-linkedin:hover, .sponsor:hover{
+    color: #370a6d;
+}
+#contacto footer .fa-square-github:hover{
+    color: #370a6d;
+}
+#contacto footer .mail1:hover{
+    color: #370a6d;
+}
+#contacto footer .fa-linkedin{
+    font-size: 30px;
+    color: white;
+    padding: 0 0 0 10px;
+    border: 0px;
+    border-radius: 80px;
+    font-size: 30px;
+}
+#contacto .fa-square-github{
+    font-size: 30px;
+    color: white;
+    border-radius: 80px;
+    font-size: 30px;
+}
+#contacto .sponsor-contacto{
+    color: white;
+}
+#proyectos, .sponsor-proyectos {
+    color: #E20000
+}
+#proyectos .mail1, .sponsor{
+    color: #E20000;
+    text-decoration: none;
+}
+#proyectos footer .fa-linkedin:hover, .sponsor:hover{
+    color: #370a6d;
+}
+#proyectos .mail1:hover{
+    color: #370a6d;
+}
+
+#proyectos footer .fa-square-github:hover {
+    color: #370a6d;
+}
+
+#proyectos footer .fa-linkedin {
+    font-size: 30px;
+    color: #E20000;
+    padding: 0 0 0 10px;
+    border: 0px;
+    border-radius: 80px;
+    font-size: 30px;
+}
+
+#proyectos footer .fa-square-github {
+    font-size: 30px;
+    color: #E20000;
+    border-radius: 80px;
+    font-size: 30px;
+}
+/*----*/
+#inicio .sponsor-inicio {
+    color: white;
+    font-weight: bold;
+}
+#inicio .sponsor-inicio1{
+    color: white;
+    text-decoration: none;
+}
+#inicio .sponsor-inicio1:hover{
+    color: #370a6d;
+}
+#inicio .mail1,
+.sponsor {
+    color: white;
+    text-decoration: none;
+}
+
+#inicio footer .fa-linkedin:hover,
+.sponsor:hover {
+    color: #370a6d;
+}
+
+#inicio .mail1:hover {
+    color: #370a6d;
+}
+
+#inicio footer .fa-square-github:hover {
+    color: #370a6d;
+}
+
+#inicio footer .fa-linkedin {
+    font-size: 30px;
+    color: white;
+    padding: 0 0 0 10px;
+    border: 0px;
+    border-radius: 80px;
+    font-size: 30px;
+}
+
+#inicio footer .fa-square-github {
+    font-size: 30px;
+    color: white;
+    border-radius: 80px;
+    font-size: 30px;
+}
+
+
+/*---*/
+#sobre-mi .sponsor-proyectos {
+    color: #E20000
+}
+
+#sobre-mi .mail1,
+.sponsor {
+    color: #E20000;
+    text-decoration: none;
+}
+
+#sobre-mi footer .fa-linkedin:hover,
+.sponsor:hover {
+    color: #370a6d;
+}
+
+#sobre-mi .mail1:hover {
+    color: #370a6d;
+}
+
+#sobre-mi footer .fa-square-github:hover {
+    color: #370a6d;
+}
+
+#sobre-mi footer .fa-linkedin {
+    font-size: 30px;
+    color: #E20000;
+    padding: 0 0 0 10px;
+    border: 0px;
+    border-radius: 80px;
+    font-size: 30px;
+}
+
+#sobre-mi footer .fa-square-github {
+    font-size: 30px;
+    color: #E20000;
+    border-radius: 80px;
+    font-size: 30px;
+}
+.btn-sobremi{
+    color: white;
+    background-color: #E20000;
+    width: auto;
+}
+.btn-sobremi:hover{
+    background-color: #370a6d;
+}
+#proyectos img{
+    height: 183px;
+    width: 100%;
+}
+#proyectos h2{
+    font-size: 16px;
+    color: white;
+    background-color: red;
+    background: rgb(139, 0, 0);
+    background: linear-gradient(90deg, rgba(139, 0, 0, 1) 0%, rgba(168, 0, 0, 1) 50%, rgba(231, 0, 0, 1) 100%);
+    padding: 12px;
+}
+#proyectos .descript{
+    font-size: 14px;
+    height: 150px;
+}
+#inicio img{
+    height: 400px;
+}
+#inicio img:hover{
+    height: 410px;
+}
+.cohete{
+    height: 410px;
+}
+
+.btn-conoce{
+    width: auto;
+}
+#inicio p{
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.foto-perfil{
+    border-radius: 600px;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+
+
+@media (max-width: 750px) {
+    #contacto{
+        background-image: url(../images/fondo-proyectos.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #proyectos{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #inicio{
+        background-image: url(../images/fondo-proyectos.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #inicio p {
+        color: #E20000;
+        font-size: 17px;
+        border: 1px solid #E20000;
+        border-radius: 50px;
+        font-weight: 600;
+        }
+}
