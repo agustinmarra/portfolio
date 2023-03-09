@@ -351,9 +351,39 @@ main{
 }
 #exp-laboral img{
     width: 120px;
-    
 }
-
+#form-academica h2, #cursos h2{
+    font-size: 24px;
+    color: #E20000;
+}
+.baw{
+    filter: grayscale(100%);
+}
+.baw:hover{
+    filter: grayscale(0%);
+}
+#idiomas{
+    background-color: #eee;
+}
+#idiomas .card{
+    background-color: #370a6d;
+    border-radius: 15px;
+}
+#idiomas i{
+    font-size: 80px;
+    color: white;
+}
+#idiomas .recblank{
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#idiomas h2{
+    font-size: 16px;
+}
+#idiomas ul{
+    list-style-type
+}
 
 
 
