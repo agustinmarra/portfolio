@@ -309,6 +309,50 @@ main{
     height: 300px;
     width: 300px;
 }
+#stack-tecnologico{
+    background: rgb(139, 0, 0);
+    background: linear-gradient(90deg, rgba(139, 0, 0, 1) 0%, rgba(189, 3, 3, 1) 0%, rgba(231, 0, 0, 1) 100%);
+}
+#stack-tecnologico h2{
+    color: white;
+    font-size: 24px;
+}
+#stack-tecnologico h3 {
+    font-size: 14px;
+}
+#stack-tecnologico .rectangulo{
+    background-color: white;
+    width: 185px;
+    border-radius: 8px;
+}
+#stack-tecnologico .stacks{
+    width: 60px;
+}
+#exp-laboral h2{
+    color: #370a6d;
+    font-size: 24px;
+}
+#exp-laboral h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+#exp-laboral h4 {
+    color: #370a6d;
+    font-size: 17px;
+}
+#exp-laboral h5 {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+#exp-laboral p{
+    color: #6a6a6a;
+    font-size: 16px;
+}
+#exp-laboral img{
+    width: 120px;
+    
+}
 
 
 
