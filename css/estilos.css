@@ -382,8 +382,56 @@ main{
     font-size: 16px;
 }
 #idiomas ul{
-    list-style-type
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+#form-academica img{
+    width: 100px;
+}
+#form-academica h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+#form-academica h4{
+    font-size: 17px;
+    color: #E20000;
+}
+#form-academica h5{
+    color: #6A6A6A;
+    font-size: 14px;
+}
+#form-academica p{
+    color: #6a6a6a;
+    font-size: 16px;
+}
+#cursos img{
+    width: 100px;
+    filter: grayscale(100%);
+}
+#cursos img:hover {
+    filter: grayscale(0%);
+}
+#cursos h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+#cursos h4{
+    font-size: 17px;
+    color: #E20000;
+}
+#cursos h5{
+    color: #6A6A6A;
+    font-size: 14px;
+
+}
+
+
+
+
+
 
 
 
