@@ -322,8 +322,8 @@ main{
 }
 #stack-tecnologico .rectangulo{
     background-color: white;
-    width: 185px;
-    border-radius: 8px;
+    border-radius: 4px;
+    height: 182px;
 }
 #stack-tecnologico .stacks{
     width: 60px;
@@ -425,7 +425,6 @@ main{
 #cursos h5{
     color: #6A6A6A;
     font-size: 14px;
-
 }
 
 
@@ -457,4 +456,7 @@ main{
         border-radius: 50px;
         font-weight: 600;
         }
+    #idiomas ul{
+        font-size: 14px;
+    }
 }
