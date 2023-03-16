@@ -455,7 +455,10 @@ main{
         border: 1px solid #E20000;
         border-radius: 50px;
         font-weight: 600;
-        }
+    }
+    #inicio .sponsor{
+        color: #E20000;
+    }    
     #idiomas ul{
         font-size: 14px;
     }
